@@ -15,7 +15,7 @@ O RandomForest e o AdaBoost são dois algoritmos populares de aprendizado de má
 
 **learning_rate**: O learning_rate determina a taxa de aprendizado do modelo. Ele controla a contribuição de cada estimador fraco para a previsão final. Um valor menor torna o modelo mais robusto, mas pode exigir um número maior de estimadores.
 
-**base_estimator**: Este hiperparâmetro permite especificar o tipo de estimador fraco a ser usado. O valor padrão é geralmente uma árvore de decisão com pouca profundidade, mas você pode fornecer outros estimadores, como regressores lineares ou outros classificadores.
+**estimator**: Este hiperparâmetro permite especificar o tipo de estimador fraco a ser usado. O valor padrão é geralmente uma árvore de decisão com pouca profundidade, mas você pode fornecer outros estimadores, como regressores lineares ou outros classificadores.
 
 **algorithm**: O hiperparâmetro algorithm permite escolher o algoritmo de boosting a ser usado. Existem duas opções comuns: 'SAMME' e 'SAMME.R'. 'SAMME' é usado para classificação binária, enquanto 'SAMME.R' é usado para classificação multiclasse. 'SAMME.R' geralmente é mais robusto e convergente.
 
